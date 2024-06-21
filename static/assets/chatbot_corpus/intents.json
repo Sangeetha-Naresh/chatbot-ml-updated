@@ -1,0 +1,55 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello!", "Hi!", "Greetings!", "Good day!", "Hey there!"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Greetings! How may I help you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "See you later", "Bye", "Take care", "Catch you later"],
+        "responses": ["Goodbye! Have a great day!", "See you later! Take care!", "Bye! Come back soon."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks a lot", "I appreciate it", "Thanks", "Thank you so much"],
+        "responses": ["You're welcome!", "No problem!", "Glad to help!", "Anytime!"]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [""],
+        "responses": ["I'm not sure how to help with that.", "Could you please provide more details?", "I didn't quite catch that. Could you elaborate?"]
+      },
+      {
+        "tag": "options",
+        "patterns": ["What can you do?", "What services do you offer?", "How can you assist me?", "What are your capabilities?", "What help can you provide?"],
+        "responses": ["I can assist with a variety of tasks such as answering questions, providing information, and more. How can I help you today?", "I offer help with information retrieval, activity suggestions, and more. What do you need assistance with?"]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["What hobbies can I try?", "Suggest a hobby", "I'm looking for a new hobby", "What are some popular hobbies?", "Recommend a hobby"],
+        "responses": ["How about trying painting or drawing?", "You might enjoy learning a musical instrument.", "Consider taking up hiking or photography."]
+      },
+      {
+        "tag": "movies",
+        "patterns": ["Recommend a movie", "What are some good movies?", "Suggest a movie", "What should I watch?", "Any movie recommendations?"],
+        "responses": ["You could watch 'Inception' or 'The Shawshank Redemption'.", "How about 'The Godfather' or 'The Dark Knight'?", "Consider watching 'Forrest Gump' or 'Interstellar'."]
+      },
+      {
+        "tag": "books",
+        "patterns": ["Recommend a book", "What are some good books?", "Suggest a book", "What should I read?", "Any book recommendations?"],
+        "responses": ["You might enjoy 'To Kill a Mockingbird' by Harper Lee.", "Consider reading '1984' by George Orwell.", "How about 'The Great Gatsby' by F. Scott Fitzgerald?"]
+      },
+      {
+        "tag": "technology",
+        "patterns": ["What's new in technology?", "Tell me about the latest tech", "Any tech news?", "What's happening in tech?", "Latest technology trends?"],
+        "responses": ["AI and machine learning are advancing rapidly.", "5G technology is becoming more widespread.", "There are exciting developments in quantum computing."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Tell me the weather", "Current weather conditions?", "Weather forecast?", "How's the weather today?"],
+        "responses": ["I'm not connected to a weather service, but you can check your local forecast online.", "Consider using a weather app for the most accurate information.", "The weather can vary greatly by location, so it's best to look up your local forecast."]
+      }
+    ]
+  }
+  
